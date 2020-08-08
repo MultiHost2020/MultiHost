@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args) => {
         var embed = new discord.MessageEmbed()
             .setTitle("Use")
             .setColor("GREEN")
-            .setDescription(`Make an announcement. Use this \n !announcement titel ${seperator} bericht ${seperator} kleur ${seperator} kanaal ${seperator} tag`);
+            .setDescription(`Make an announcement. Use this \n !announcement titel ${seperator} bericht ${seperator} kleur ${seperator} kanaal ${seperator} tag (nog niet af)`);
 
         return message.reply(embed);
 
@@ -29,8 +29,7 @@ module.exports.run = async (bot, message, args) => {
         titel: argsList[0],
         bericht: argsList[1] || ("There is no announce"),
         kleur: argsList[2].trim(),
-        kanaal: argsList[3].trim(),
-        tag: argList[4].trim()
+        kanaal: argsList[3].trim()
 
     }
 
