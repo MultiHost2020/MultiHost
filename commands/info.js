@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
     .setTitle("Info")
     .setDescription("Info Commando")
     .setColor("#ff0d00")
-    .addField("Wat hosten wij", "Minecraft Servers")
+    .addField("Wat hosten wij", "Minecraft Servers en Discord Bots")
     .addField("Kosten", "ga naar #《💰》prices")
     .addField("Wanneer gaan wij open?", "Nog niet zeker")
     .addField("Website", "In Aanbouw")

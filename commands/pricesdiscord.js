@@ -10,6 +10,8 @@ module.exports.run = async(bot, message, args) => {
     .addField("Standard", "€0,50")
     .addField("Pro", "€1,00")
     .addField("Ultra", "€3,00")
+    .addField("Bot Host", "-----")
+    .addField("Kijk in prices", "-")
     .setFooter("Prijzen per maand")
     
     return message.channel.send(botEmbed)
