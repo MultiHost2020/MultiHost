@@ -32,7 +32,7 @@ client.on("ready", async () => {
 
   console.log(`${client.user.username} is online.`);
 
-  client.user.setActivity("Do not use!", { type: "PLAYING" });
+  client.user.setActivity("!help", { type: "PLAYING" });
 
 });
 
